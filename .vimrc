@@ -57,7 +57,9 @@ autocmd VimEnter * NERDTree
 " change NERDTree window width
 let g:NERDTreeWinSize=22
 
-
+" quickly move between vim window (between nerd tree and file)
+map <C-Right> <C-w>l
+map <C-Left> <C-w>h
 
 
 
